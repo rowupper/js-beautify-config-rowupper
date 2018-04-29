@@ -1,0 +1,15 @@
+{
+  "name": "js-beautify-config-rowupper",
+  "version": "0.0.1",
+  "description": "Sharable js-beautify config used by Rowupper.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --quiet *.js",
+    "test": "npm run lint"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "~4.19.1",
+    "eslint-config-rowupper": "~0.0.1"
+  }
+}
